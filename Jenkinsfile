@@ -7,6 +7,7 @@ pipeline {
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
                 echo 'Aydin was here'
+                echo 'This is the first git-hub deployment'
             }
         }
     }
